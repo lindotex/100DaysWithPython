@@ -2,7 +2,22 @@
 
 ## 100 days coding with Python is a Complete Python Bootcamp, developed by Dr. Angela Yu.
 
-1 . Beginner - [x] Day 001 Working with Variables in Python to Manage data - [ ] Day 002 Understanding Data Types and How to Manipulate Strings - [ ] Day 003 Control Flow and Logical Operators - [ ] Day 004 Randomisation and Python List - [ ] Day 005 Python Loops - [ ] Day 006 Python Functions and Karel - [ ] Day 007 Hangman - [ ] Day 008 Functions Parameters and Caesar Cipher - [ ] Day 009 Dictionaries, Nesting and Secret Auction - [ ] Day 010 Functions with Outputs - [ ] Day 011 The Blackjack Capstone Project - [ ] Day 012 Scope and Number Guessing Game - [ ] Day 013 Debugging: How to find and Fix Errors in your code - [ ] Day 014 High Lower Game Project
+1 . Beginner
+
+    - [x] Day 001 Working with Variables in Python to Manage data
+    - [ ] Day 002 Understanding Data Types and How to Manipulate Strings
+    - [ ] Day 003 Control Flow and Logical Operators
+    - [ ] Day 004 Randomisation and Python List
+    - [ ] Day 005 Python Loops
+    - [ ] Day 006 Python Functions and Karel
+    - [ ] Day 007 Hangman
+    - [ ] Day 008 Functions Parameters and Caesar Cipher
+    - [ ] Day 009 Dictionaries, Nesting and Secret Auction
+    - [ ] Day 010 Functions with Outputs
+    - [ ] Day 011 The Blackjack Capstone Project
+    - [ ] Day 012 Scope and Number Guessing Game
+    - [ ] Day 013 Debugging: How to find and Fix Errors in your code
+    - [ ] Day 014 High Lower Game Project
 
 2. Intermediate
 
