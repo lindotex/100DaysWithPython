@@ -20,22 +20,23 @@
 2. Intermediate
 
    - [ ] Day 015 | Local Development Environment Setup and the Coffee Machine
-   - [ ] Day 016 |
-   - [ ] Day 017 |
-   - [ ] Day 018 |
-   - [ ] Day 019 |
-   - [ ] Day 020 |
-   - [ ] Day 021 |
-   - [ ] Day 022 |
-   - [ ] Day 023 |
-   - [ ] Day 024 |
-   - [ ] Day 025 |
-   - [ ] Day 026 |
-   - [ ] Day 027 |
-   - [ ] Day 028 |
-   - [ ] Day 029 |
-   - [ ] Day 030 |
-   - [ ] Day 031 |
+   - [ ] Day 016 | Object Oriented Programming (OOP)
+   - [ ] Day 017 | The Quiz Project and the Benefits of OOP
+   - [ ] Day 018 | Turtle and the Graphical User Interface (GUI)
+   - [ ] Day 019 | Instances, State and Higher Order Functions
+   - [ ] Day 020 | Build the Snake Game Part One: Animation and Coordinates
+   - [ ] Day 021 | Build the Snake Game Part two: Inheritance and List Slicing
+   - [ ] Day 022 | Build Pong: The Famous Arcade Game
+   - [ ] Day 023 | The Turtle Crossing **Capstone** Project
+   - [ ] Day 024 | Files, Directories and Paths
+   - [ ] Day 025 | Working with CSV Data and the Pandas
+   - [ ] Day 026 | List Comprehension and the NATO Alphabet
+   - [ ] Day 027 | Tkinter, args[^1], kwargs[^2] and Creating GUI Programs
+   - [ ] Day 028 | Tkinter, Dynamic Typing and the Pomodoro GUI Application
+   - [ ] Day 029 | Building a Password Manager GUI Application with TKinter
+   - [ ] Day 030 | Errors, Exceptions and JSON Data: Improving the Password
+   - [ ] Day 031 | Flash card App **Capstone** Project
+         [^1] and [^2]: args and kwargs allow you to pass multiple arguments or keyword arguments to a function. Consider the following example. This is a simple function that takes two arguments and returns their sum.
 
 3. Intermediate+
 
