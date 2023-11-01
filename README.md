@@ -36,7 +36,6 @@
    - [ ] Day 029 | Building a Password Manager GUI Application with TKinter
    - [ ] Day 030 | Errors, Exceptions and JSON Data: Improving the Password
    - [ ] Day 031 | Flash card App **Capstone** Project
-         [^1] and [^2]: args and kwargs allow you to pass multiple arguments or keyword arguments to a function. Consider the following example. This is a simple function that takes two arguments and returns their sum.
 
 3. Intermediate+
 
