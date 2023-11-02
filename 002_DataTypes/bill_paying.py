@@ -1,11 +1,4 @@
-# Class:
-    ##Data types:
-    
-    # String:
-
-
-
-#Exercice
+#Exercices
 # My trying exercice 
 bill = print(input('What was the total bill?'))
 total_people = print(input('How many people to split the bill?'))
