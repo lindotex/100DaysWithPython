@@ -23,8 +23,13 @@ input("What is your name?")
 
 print("Hello," + input("What is your name?"))
 
+# Python len() function
+# It allows us to count how many letters contains in certain input.
+
 #Exercice 3:
 print(len(input()))
+# It will be printed how many characters are being in the word digited at the input().
+# Len() espects a type 'text'. If you insert an Number it will crash.
 
 # Defining Variables:
 
