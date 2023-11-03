@@ -57,3 +57,12 @@ else:
     </tbody>
 
 <table>
+
+## Modular (checking if a division is Odd or Even)
+
+```python
+#We can use the operator "%" (Modular)
+
+num = 5 / 2 # It will return 2.5
+num = 5 % 2 # It will return 1, the rest of the division
+```
