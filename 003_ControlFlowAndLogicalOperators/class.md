@@ -19,3 +19,41 @@ if water_level > 80;
 else:
     print("Continue")
 ```
+
+## Operators
+
+<table>
+    <thead>
+        <tr>
+            <th>Operator</th>
+            <th>Meaning</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>></td>
+            <td>Greater than</td>
+        </tr>
+        <tr>
+            <td><</td>
+            <td>Smaler than</td>
+        </tr>
+        <tr>
+            <td>>=</td>
+            <td>Greater than or equal</td>
+        </tr>
+        <tr>
+            <td><=</td>
+            <td>Smaler than or equal</td>
+        </tr>
+        <tr>
+            <td>==</td>
+            <td>Equal to</td>
+        </tr>
+        <tr>
+            <td>=!</td>
+            <td>Not equal to</td>
+        </tr>
+    </tbody>
+
+<table>
