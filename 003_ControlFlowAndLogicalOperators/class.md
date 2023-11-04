@@ -146,6 +146,9 @@ if height >= 120:
         print("Your Photo has been taken, your Bill is ${bill}")
     else:
         print("Your Photo hasn't been taken, your Bill is ${bill}")
+
+    ## ADDING AN CONDITION INNER ANOTHER ONE:
+
 else:
     print("You can not ride the rollercoaster yet...")
 ```
