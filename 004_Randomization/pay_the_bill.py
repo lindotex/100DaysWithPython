@@ -4,9 +4,17 @@
 import string
 
 # My attempt:
-list = ["Angela", "Ben","Jenny", "Michael", "Chloe"]
+names_string = ["Angela", "Ben","Jenny", "Michael", "Chloe"]
 
 names = names_string.split(", ")
 
 import random
+
+#Geting the total number of items in list
 num_itens = len(names)
+#Generating a random number between 0 and the last index of the list.
+random_choice = random.randint(0, num_itens - 1)
+# Selecting a random person from the list of names using random number.
+paying_person = names[random_choice]
+
+print(f"{paying_person} is going to pay the meal today!")

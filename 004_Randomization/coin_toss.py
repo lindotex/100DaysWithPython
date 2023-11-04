@@ -4,9 +4,9 @@ import random
 
 random_number = random.randint(0,1)
 
-decision = string.capitalize(input("You you like to play heads or tails? Y or N"))
+decision = input("You you like to play heads or tails? Y or N")
 
-if decision = "Y":
+if decision == "Y":
     print("Ok, let's play!")
     print("...")
     if random_number == 0:
