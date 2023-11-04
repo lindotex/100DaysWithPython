@@ -1,4 +1,6 @@
-# Conditional Statements, Logical Operators, Code Blocks and Scope.
+# Lesson 3
+
+## Conditional Statements, Logical Operators, Code Blocks and Scope.
 
 If/Else statement:
 

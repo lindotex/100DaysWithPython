@@ -1,4 +1,4 @@
-# Class:
+# Lesson 2
 
 ## DATA TYPES:
 

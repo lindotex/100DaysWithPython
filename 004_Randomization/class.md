@@ -1,4 +1,4 @@
-# Class 4
+# Lesson 4
 
 ## Randomization Module
 
