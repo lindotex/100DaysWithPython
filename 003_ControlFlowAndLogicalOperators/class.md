@@ -152,3 +152,53 @@ if height >= 120:
 else:
     print("You can not ride the rollercoaster yet...")
 ```
+
+## Logical Operators:
+
+<p><strong>AND:</strong> A + B</p>
+<p><strong>OR:</strong> A or B</p>
+<p><strong>NOT:</strong> A != B</p>
+
+The return will aways be a boolean answer, True or False.
+
+```python
+a = 13
+
+a > 10 and a <15 # Since a=13, it will return true.
+a < 10 or a != 12 # Since none of this is true, it will return False.
+not a < 11 # a is greather than 11, but since we put an `not`, it will return the oposite of the answer (false), it will return True
+
+```
+
+Example:
+
+```python
+print("Welcome to the rollercoaster!")
+height = int(input("What is your height in cm?"))
+age = int(input("How old are you?"))
+bill = 0
+
+if height >= 120:
+    print("You can ride the rollercoaster!")
+    if age <= 12:
+        print("Child, pay $5.00 to enter")
+        bill = 5
+    elif age < 18:
+        print("Youth, pay $7.00 to enter.")
+        bill = 7
+    ## Using the Logical Operator AND
+    elif age >= 45 and age < 50:
+        print("Crisis time, pay $0.00 to enter.")
+    ## Using the Logical Operator AND
+    else:
+        print("Adult, pay $12.00 to enter.")
+        bill = 12
+    whants_photo = bool(input("Do you wanna photo taken? Y or N"))
+    if whants_photo == "y":
+        bill = bill + 3
+        print("Your Photo has been taken, your Bill is ${bill}")
+    else:
+        print("Your Photo hasn't been taken, your Bill is ${bill}")
+else:
+    print("You can not ride the rollercoaster yet...")
+```
