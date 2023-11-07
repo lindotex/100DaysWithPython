@@ -17,7 +17,7 @@
    - [x] Day 002 | Understanding Data Types and How to Manipulate Strings.
    - [x] Day 003 | Control Flow and Logical Operators.
    - [x] Day 004 | Randomisation and Python List.
-   - [ ] Day 005 | Python Loops.
+   - [x] Day 005 | Python Loops.
    - [ ] Day 006 | Python Functions and Karel.
    - [ ] Day 007 | Hangman.
    - [ ] Day 008 | Functions Parameters and Caesar Cipher.
