@@ -29,19 +29,31 @@ import random
 
 word_list = ["cow", "baboon", "camel"]
 display= []
+lives = 5
+match = 0
+math_word = 0
 
 num_items = len(word_list)
 random_choice = random.randint(0, num_items - 1)
 chosen_word = word_list[random_choice]
+match = len(chosen_word)
 
 print(f"The chosen word is {chosen_word}")
-
-guess = str(input("Guess a letter of the random word:")).lower()
-
 for character in chosen_word:
-    if guess == character:
-        display.append(character)
-    else:
-        display.append("_")
+    display.append("_")
 
-print(display)
+while (lives != 0 and match == math_word):
+    guess = str(input("Guess a letter of the random word:")).lower()
+    for character in chosen_word:
+        if guess == character:
+            display.append(character)
+            math_word += 1
+            print("You Got a letter!")
+        else:
+            lives -=1
+            display.append("_")
+    print(display)
+    print("game over")
+            
+    
+
