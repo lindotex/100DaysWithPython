@@ -12,35 +12,6 @@
     # 3 TODO - Check if the letter that the user guessed is one of the letters in the chosen_word. 
     
 ########################################################################################################################
-
-import random
-
-# 1 TODO :
-
-word_list = ["cow", "baboon", "camel"]
-
-# Counting the number of items in the list:
-num_items = len(word_list)
-
-# Defining the random word:
-random_choice = random.randint(0, num_items - 1)
-    # You could replace this step with: chosen_word = random.choice(word_list)
-chosen_word = word_list[random_choice]
-print(f"The chosen word is {chosen_word}")
-
-# 2 TODO:
-
-# Getting the user's input:
-guess = str(input("Guess a letter of the random word:")).lower()
-
-# 3 TODO:
-
-for character in chosen_word:
-    if guess == character:
-        print("Match")
-    else:
-        print("Wrong")
-
 ########################################################################################################################
 # Step 02:
     # 1 TODO - Create an empty list called display. For each letter in the chosen word, add "_" to display (print).
@@ -48,12 +19,26 @@ for character in chosen_word:
     # 3 TODO - Print 'display' and you should see the guessed letter in the correct position and every other letter replace with "_"
     
 ########################################################################################################################
+########################################################################################################################
+# Step 03:
+    # 1 TODO - Create a while loop to let user guess again
+    
+########################################################################################################################
 
-# 1 TODO:
+import random
+
+word_list = ["cow", "baboon", "camel"]
 display= []
 
+num_items = len(word_list)
+random_choice = random.randint(0, num_items - 1)
+chosen_word = word_list[random_choice]
+
+print(f"The chosen word is {chosen_word}")
+
+guess = str(input("Guess a letter of the random word:")).lower()
+
 for character in chosen_word:
-    # 2 TODO:
     if guess == character:
         display.append(character)
     else:
