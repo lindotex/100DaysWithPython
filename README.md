@@ -19,9 +19,9 @@
    - [x] Day 004 | Randomisation and Python List.
    - [x] Day 005 | Python Loops.
    - [x] Day 006 | Python Functions and Karel.
-   - [ ] Day 007 | Hangman.
-   - [ ] Day 008 | Functions Parameters and Caesar Cipher.
-   - [ ] Day 009 | Dictionaries, Nesting and Secret Auction.
+   - [x] Day 007 | Hangman.
+   - [x] Day 008 | Functions Parameters and Caesar Cipher.
+   - [x] Day 009 | Dictionaries, Nesting and Secret Auction.
    - [ ] Day 010 | Functions with Outputs.
    - [ ] Day 011 | The Blackjack Capstone Project.
    - [ ] Day 012 | Scope and Number Guessing Game.
