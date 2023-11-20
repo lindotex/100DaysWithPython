@@ -4,11 +4,12 @@ print(logo)
 continue_calculating = True
 accumulated_value = ''
 
+first_number = float(input("What is the first number?\n"))
+
 while continue_calculating == True:
 
-    first_number = float(input("What is the first number?\n"))
     operation = str(input("What is the Operation?\n+ : addition\n- : subtraction\n/ : division\n* : multiplication\n"))
-    second_number = float(input("What is the second number?\n"))
+    second_number = float(input("What is your next number?\n"))
 
     print(f" You full answer is ( {first_number} {operation } {second_number} ), is that right? ")
     print(f"Here is the answer:")
@@ -32,10 +33,13 @@ while continue_calculating == True:
         
 
     print(calculator(first_number,second_number,operation))
+    
     loop_question = str(input("Would you like to continue calculating with your number?\nYes (y) or No (n) ? \n"))
+    
     if loop_question == 'y':
-        accumulated_value += calculator().value
+        accumulated_value = float(calculator(first_number,second_number, operation))
+    
     if loop_question == 'n':
-        accumulated_value += calculator().value
-        continue_calculating == False
-        
+        print("Bye Bye, have a nice day!")
+        accumulated_value = float(calculator(first_number,second_number, operation))
+        continue_calculating = False
