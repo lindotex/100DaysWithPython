@@ -22,7 +22,7 @@
    - [x] Day 007 | Hangman.
    - [x] Day 008 | Functions Parameters and Caesar Cipher.
    - [x] Day 009 | Dictionaries, Nesting and Secret Auction.
-   - [ ] Day 010 | Functions with Outputs.
+   - [x] Day 010 | Functions with Outputs.
    - [ ] Day 011 | The Blackjack Capstone Project.
    - [ ] Day 012 | Scope and Number Guessing Game.
    - [ ] Day 013 | Debugging: How to find and Fix Errors in your code.

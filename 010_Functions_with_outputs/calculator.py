@@ -6,11 +6,11 @@ accumulated_value = ''
 
 first_number = float(input("What is the first number?\n"))
 
+        
 while continue_calculating == True:
-
     operation = str(input("What is the Operation?\n+ : addition\n- : subtraction\n/ : division\n* : multiplication\n"))
     second_number = float(input("What is your next number?\n"))
-
+            
     print(f" You full answer is ( {first_number} {operation } {second_number} ), is that right? ")
     print(f"Here is the answer:")
 
