@@ -23,8 +23,8 @@
    - [x] Day 008 | Functions Parameters and Caesar Cipher.
    - [x] Day 009 | Dictionaries, Nesting and Secret Auction.
    - [x] Day 010 | Functions with Outputs.
-   - [ ] Day 011 | The Blackjack Capstone Project.
-   - [ ] Day 012 | Scope and Number Guessing Game.
+   - [x] Day 011 | The Blackjack Capstone Project.
+   - [x] Day 012 | Scope and Number Guessing Game.
    - [ ] Day 013 | Debugging: How to find and Fix Errors in your code.
    - [ ] Day 014 | High Lower Game Project.
 2. Intermediate
