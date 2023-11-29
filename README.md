@@ -26,7 +26,7 @@
    - [x] Day 011 | The Blackjack Capstone Project.
    - [x] Day 012 | Scope and Number Guessing Game.
    - [x] Day 013 | Debugging: How to find and Fix Errors in your code.
-   - [ ] Day 014 | High Lower Game Project.
+   - [x] Day 014 | High Lower Game Project.
 2. Intermediate
 
    - [ ] Day 015 | Local Development Environment Setup and the Coffee Machine.
