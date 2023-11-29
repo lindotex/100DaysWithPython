@@ -16,7 +16,7 @@
    - [x] Day 001 | Working with Variables in Python to Manage data.
    - [x] Day 002 | Understanding Data Types and How to Manipulate Strings.
    - [x] Day 003 | Control Flow and Logical Operators.
-   - [x] Day 004 | Randomisation and Python List.
+   - [x] Day 004 | Randomization and Python List.
    - [x] Day 005 | Python Loops.
    - [x] Day 006 | Python Functions and Karel.
    - [x] Day 007 | Hangman.
@@ -25,7 +25,7 @@
    - [x] Day 010 | Functions with Outputs.
    - [x] Day 011 | The Blackjack Capstone Project.
    - [x] Day 012 | Scope and Number Guessing Game.
-   - [ ] Day 013 | Debugging: How to find and Fix Errors in your code.
+   - [x] Day 013 | Debugging: How to find and Fix Errors in your code.
    - [ ] Day 014 | High Lower Game Project.
 2. Intermediate
 
@@ -68,21 +68,21 @@
 
 5. Intermediate++
 
-   - [ ] Day 045 | Web Scraping with beautifull Soup.
+   - [ ] Day 045 | Web Scraping with beautiful Soup.
    - [ ] Day 046 | Create a Spotify playlist using the Musical Time Machine.
    - [ ] Day 047 | Create an automated Amazon Price Tracker.
    - [ ] Day 048 | Selenium webdriver Browser and game playing Bot.
    - [ ] Day 049 | Automating Job Applications on LinkedIn.
-   - [ ] Day 050 | Auto Tinder Swaping Bot.
+   - [ ] Day 050 | Auto Tinder Swapping Bot.
    - [ ] Day 051 | Internet twitter Complaint Bot.
    - [ ] Day 052 | Instagram Follower Bot.
    - [ ] Day 053 | Web Scraping **Capstone**: Data entry Job Automation.
    - [ ] Day 054 | Introduction to Web application with Flask.
    - [ ] Day 055 | HTML and URL parsing in Flask and the Higher-Lower Game.
    - [ ] Day 056 | Rendering HTML/Static files and Using Website Templates.
-   - [ ] Day 057 | Templating with Jinja in Flask applications.
+   - [ ] Day 057 | Template with Jinja in Flask applications.
 
-6. Web Fundations pt.2
+6. Web Foundations pt.2
 
    - [ ] Day 058 | - Bootstrap
 
@@ -105,7 +105,7 @@
    - [ ] Day 073 | Data visualization with Mathplotlib: Programming Languages.
    - [ ] Day 074 | Aggregate and Merge Data with Pandas: Analyze LEGO Dataset.
    - [ ] Day 075 | Google trends data: Resampling and Visualizing Time Series
-   - [ ] Day 076 | Beautiful Ploty Charts and Analysing the Android App Store.
+   - [ ] Day 076 | Beautiful Plot Charts and Analyzing the Android App Store.
    - [ ] Day 077 | Computation with Nuphy and N-Dimensional Arrays.
    - [ ] Day 078 | Linear regression and Data visualization with seaborn.
    - [ ] Day 079 | Analysing the Nobel Prize with Ploty, Matplotlib and Seaborn.
