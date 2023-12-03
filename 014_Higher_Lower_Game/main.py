@@ -28,9 +28,6 @@ def verification(one, two):
 def game_over():
     return "Game Over."
 
-# def play_game():
-    
-
 answer = str(input("Would you like to play?\nYes(y) or No(n):"))
 
 while answer not in ['y','n']:    
