@@ -29,7 +29,7 @@
    - [x] Day 014 | High Lower Game Project.
 2. Intermediate
 
-   - [ ] Day 015 | Local Development Environment Setup and the Coffee Machine.
+   - [x] Day 015 | Local Development Environment Setup and the Coffee Machine.
    - [ ] Day 016 | Object Oriented Programming (OOP).
    - [ ] Day 017 | The Quiz Project and the Benefits of OOP.
    - [ ] Day 018 | Turtle and the Graphical User Interface (GUI).
