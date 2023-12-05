@@ -17,6 +17,9 @@ def calculate(quarter, dime, nickel, penny):
 def off_machine():
     print('The machine has been turn off.')
     
+def report():
+    print(f"The machine still having {resources['coffee']}g of Coffee, {resources['water']}g of water and {resources['milk']}ml of milk.")
+
 def compare(paid, price):
     if paid > price:
         return paid - price
@@ -44,14 +47,17 @@ def prepare_coffee(beverage_type, credit, price):
                  
 
 presentation()
-while option not in ['espresso', 'latte', 'cappuccino', 'off']: 
+while option not in ['espresso', 'latte', 'cappuccino', 'off','report']: 
     option = str(input('What would you like ? (Espresso, Latte, Cappuccino):\n'))
-    if option not in ['espresso', 'latte', 'cappuccino', 'off']:
+    if option not in ['espresso', 'latte', 'cappuccino', 'off', 'report']:
         print('This is not into the options!')
 
 if option == 'off':
     off_machine()
-    
+
+if option == 'report':
+    report()
+        
 else :
     print(f'You chose {option}, it will cost you € {beverages[option]['price']}')
     quarters = int(input("How many quarters (0.25)?:"))
