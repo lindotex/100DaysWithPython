@@ -1,3 +1,4 @@
+import time
 class CoffeeMaker:
     """Models the machine that makes the coffee"""
     def __init__(self):
@@ -26,4 +27,14 @@ class CoffeeMaker:
         """Deducts the required ingredients from the resources."""
         for item in order.ingredients:
             self.resources[item] -= order.ingredients[item]
+        print('Preparing your beverage, wait a little bit.')
+        print('[..........]')
+        time.sleep(1)
+        print('[|||.......]')
+        time.sleep(1)
+        print('[||||||....]')
+        time.sleep(1)
+        print('[|||||||||.]')
+        time.sleep(1)
+        print('[||||||||||]')
         print(f"Here is your {order.name} ☕️. Enjoy!")
