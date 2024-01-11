@@ -31,8 +31,8 @@
 
    - [x] Day 015 | Local Development Environment Setup and the Coffee Machine.
    - [x] Day 016 | Object Oriented Programming (OOP).
-   - [ ] Day 017 | The Quiz Project and the Benefits of OOP.
-   - [ ] Day 018 | Turtle and the Graphical User Interface (GUI).
+   - [x] Day 017 | The Quiz Project and the Benefits of OOP.
+   - [x] Day 018 | Turtle and the Graphical User Interface (GUI).
    - [ ] Day 019 | Instances, State and Higher Order Functions.
    - [ ] Day 020 | Build the Snake Game Part One: Animation and Coordinates.
    - [ ] Day 021 | Build the Snake Game Part two: Inheritance and List Slicing.
