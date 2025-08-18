@@ -6,6 +6,11 @@ t.colormode(255)
 t.speed('fastest')
 
 def random_color():
+    """Randomize color
+
+    Returns:
+        color: It returns an tuple containing (r,g,b) colors.
+    """
     r = random.randint(0,255)
     g = random.randint(0,255)
     b = random.randint(0,255)
