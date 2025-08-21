@@ -45,3 +45,12 @@ class Snake:
     def right(self):
         if self.head.heading() != LEFT:
             self.head.setheading(RIGHT)  
+    
+    def extend(self):
+        new_segment = Turtle("square")
+        new_segment.color("white")
+        new_segment.penup()
+        self.segments.append(new_segment)
+        # Position the new segment at the end of the snake
+        self.segments[-1].goto(self.segments[-2].position())
+        # Increase the score when the snake extends
