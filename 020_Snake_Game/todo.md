@@ -9,5 +9,5 @@
 
 [X] - Detect collision with food,
 [X] - Create a Scoreboard,
-[ ] - Collect collisions with the walls,
-[ ] - Detect collision with the tail.
+[X] - Collect collisions with the walls,
+[X] - Detect collision with the tail.
