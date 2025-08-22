@@ -1,6 +1,9 @@
 from turtle import Turtle
 import os
 
+ALIGNMENT = "center"
+FONT = ("Courier", 24, "normal")
+
 # Scoreboard class to keep track of the score and high score
 # It inherits from Turtle to use turtle graphics for displaying the score
 # It also handles saving and loading the high score from a file
@@ -9,7 +12,6 @@ class Scoreboard(Turtle):
     def __init__(self):
         super().__init__()
         self.score = 0
-        self.high_score = 0
         self.load_high_score()
         self.color("white")
         self.penup()
@@ -29,8 +31,7 @@ class Scoreboard(Turtle):
             file.write(str(self.high_score))
 
     def update_scoreboard(self):
-        self.clear()
-        self.write(f"Score: {self.score} High Score: {self.high_score}", align="left", font=("Courier", 16, "normal"))
+        self.write(f"Score: {self.score}", align=ALIGNMENT, font=FONT)
 
     def reset(self):
         if self.score > self.high_score:
@@ -41,4 +42,10 @@ class Scoreboard(Turtle):
 
     def increase_score(self):
         self.score += 1
+        self.clear()
         self.update_scoreboard()
+    
+    def game_over(self):
+        self.goto(0, 0)
+        self.write("GAME OVER", align=ALIGNMENT, font=FONT)
+

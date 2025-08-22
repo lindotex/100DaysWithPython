@@ -42,5 +42,14 @@ while game_is_on:
         scoreboard.update_scoreboard() 
         snake.extend()  # Call the extend method of the Snake class to grow the snake
         
+    if snake.head.xcor() > 280 or snake.head.xcor() < -280 or snake.head.ycor() > 280 or snake.head.ycor() < -280:
+        game_is_on = False
+        scoreboard.game_over()
+    
+    # Detect collision with tail
+    for segment in snake.segments[1:]:  # Exclude the head segment
+        if snake.head.distance(segment) < 10:  # Check if the head collides with any segment of the tail
+            game_is_on = False
+            scoreboard.game_over()
 
 screen.exitonclick()
