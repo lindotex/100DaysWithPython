@@ -1,9 +1,10 @@
 import time
 from turtle import Screen
 from paddle import Paddle
+from ball import Ball
 
 screen = Screen()
-
+ball = Ball()
 screen.setup(width=800, height=600)
 screen.bgcolor("black")
 screen.title("Pong")
@@ -26,5 +27,6 @@ game_is_on = True
 while game_is_on:
     screen.update()
     time.sleep(0.1)
+    ball.move()
     
 screen.exitonclick()    
