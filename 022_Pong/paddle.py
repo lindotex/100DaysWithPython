@@ -1,11 +1,7 @@
 from turtle import Turtle
 
 # Paddle class for Pong game
-
 # Attributes
-DOWN = 270
-SPEED = 5
-UP = 90
 WIDTH = 1
 HEIGHT = 4
 
@@ -25,18 +21,11 @@ class Paddle(Turtle):
             new_segment.penup()
             new_segment.goto(position)
             self.segments.append(new_segment)
-
-    def move(self):
-        for seg_num in range(len(self.segments) - 1, 0, -1):
-            new_position = self.segments[seg_num - 1].ycor()
-            self.segments[seg_num].goto(new_position)
-        if self.segments:
-            self.forward(SPEED)
-            
+        
     def up(self):
-        if self.heading() != DOWN:
-            self.setheading(UP)
-    
+        new_y = self.ycor() + 40
+        self.goto(self.xcor(), new_y)
+            
     def down(self):
-        if self.heading() != UP:
-            self.setheading(DOWN)
+        new_y = self.ycor() - 40
+        self.goto(self.xcor(), new_y)

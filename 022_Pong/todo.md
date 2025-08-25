@@ -1,8 +1,8 @@
 # TODO LIST
 
 [X] - Create the screen
-[ ] - Create and move a Paddle
-[ ] - Create another Paddle
+[X] - Create and move a Paddle
+[X] - Create another Paddle
 [ ] - Create the ball and make it move
 [ ] - Detect collision with wall and bounce
 [ ] - Detect collision with paddle
